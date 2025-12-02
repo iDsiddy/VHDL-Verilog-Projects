@@ -43,3 +43,6 @@ FA_inst1: entity work.FullAdder1bit
 ## Testing and simulation
 - The folder includes a simple testbench that exercises addition, carry propagation, and edge cases. Run the testbench with a VHDL simulator (e.g., GHDL) and inspect waveforms with GTKWave.
 
+## Notes
+
+A related Lab Report for the same has been uploaded in /docs for further conceptual depth
