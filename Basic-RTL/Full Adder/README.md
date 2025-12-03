@@ -3,12 +3,6 @@
 - Purpose: demonstrate modular arithmetic design using a ripple-carry adder built from 1-bit full-adder building blocks.
 - Focus: clear separation between behavioral and structural styles; emphasis on reusability and testability.
 
-## Files
-- `rtl/` — all HDL modules used in design
-- `docs/` — provides theoretical view of function
-- `sim/` — simulation outputs
-- `tb/` — testbench/s used
-
 ## Design approach
 - Structural architecture: the top-level 8-bit adder is implemented using a `structural` architecture that instantiates multiple 1-bit full-adder components and connects them with `port map` statements. This approach explicitly shows how small, well-defined modules compose into larger systems and makes dataflow and carry propagation visible.
 

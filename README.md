@@ -21,66 +21,32 @@ Every block is designed to be **standalone, interview-ready, and easy to simulat
 Basic-RTL/
 │
 ├── Counters/
-│ ├── BinCounter.vhd
-│ ├── RingCounter.vhd
-│ ├── JohnsonCounter.vhd
-│ └── secondsTIMER.vhd
+│ 	├── BinCounter.vhd
+│ 	├── RingCounter.vhd
+│ 	└── JohnsonCounter.vhd
 │
 ├── Full Adder/
-│ └── fullAdd8bit.vhd
+│ 	├── fullAdd1bit.vhd
+│ 	├── fullAdd2bit.vhd
+│ 	├── fullAdd4bit.vhd
+│ 	└── fullAdd8bit.vhd
 │
 ├── Parity Detector/
-│ ├── rtl/
-│ ├── tb/
-│ └── docs/
+│	└── ParityCheck.vhd (Odd-1 Parity gen/check)
 │
 └── Shift Registers/
-├── P2S/
-├── S2P/
-├── Regular/
-└── Universal/
+	├── P2S/
+	├── S2P/
+	├── Regular/
+	└── Universal/
 ```
 
 Each design folder typically follows:
 
 - rtl/ — synthesizable source
 - tb/ — testbench
-- sim/ — waveforms or sim scripts
-- docs/ — notes, diagrams (optional)
-
-
----
-
-## **Shift Register Modules (Summary)**
-
-### **P2S — Parallel-to-Serial**  
-**File:** `Parallel2Serial_ShiftReg.vhd`  
-- 4-bit parallel load  
-- Serial output via LSB  
-- Controlled using `load`, `shift_en`, `clk`, `rst`
-
----
-
-### **Regular Shift Register**  
-**File:** `ShiftRegister.vhd`  
-- 4-bit serial-in/serial-out  
-- Shifts MSB → LSB  
-- Inputs: `serial_in`, `shift_en`, `clk`, `clr`
-
----
-
-### **S2P — Serial-to-Parallel**  
-**File:** `Serial2Parallel_ShiftReg.vhd`  
-- Captures 4 serial bits  
-- Provides 4-bit parallel output `q`
-
----
-
-### **Universal Shift Register**  
-**File:** `UnivSerialRegister.vhd`  
-- Modes: hold, shift-left, shift-right, parallel load  
-- Controlled via 2-bit `CTRL`  
-- Outputs include parallel `parOUT` and serial MSB/LSB outputs
+- sim/ — waveforms or outputs
+- docs/ — notes, diagrams (WIP)
 
 ---
 
