@@ -1,23 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 11/03/2025 11:24:44 PM
--- Design Name: 
--- Module Name: ParityCheck - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: Checks for Odd-1 Parity in Serial Input Stream
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
