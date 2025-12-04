@@ -16,9 +16,9 @@
 
 ## Folder layout
 
-- `rtl/` — VHDL sources (listed above).
-- `tb/`  — testbenches (if present).
-- `sim/` — simulation outputs and waveforms (if present).
+- `rtl/` — VHDL sources
+- `tb/`  — testbenches 
+- `sim/` — simulation outputs and waveforms 
 - `docs/` — design notes and explanation (if present).
 
 ## Example (conceptual) 

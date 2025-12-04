@@ -2,7 +2,7 @@
 
 This folder contains small synchronous counter examples written in VHDL. They are compact, synthesizable, and suitable for interview demonstrations of FSMs, shift registers, and sequential logic.
 
-## Summary of RTL files (in `rtl/`)
+## Summary of RTL
 
 - `Counter2bit` (file: `BinCounter.vhd`): 2-bit binary counter implemented as a small FSM.
 	- Ports:
