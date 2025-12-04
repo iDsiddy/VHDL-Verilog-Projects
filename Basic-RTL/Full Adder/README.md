@@ -13,6 +13,14 @@
 - Reusability: 1-bit full-adder is a reusable building block; the same component can be used in different widths or other arithmetic circuits.
 - Testability: unit-test 1-bit blocks independently, then run integration tests on the 8-bit wrapper.
 
+
+## Folder layout
+
+- `rtl/` — VHDL sources (listed above).
+- `tb/`  — testbenches (if present).
+- `sim/` — simulation outputs and waveforms (if present).
+- `docs/` — design notes and explanation (if present).
+
 ## Example (conceptual) 
 This is a short port mapping display for a 2-bit Full Adder from a 1-bit Full Adder: 
 ```
