@@ -76,6 +76,10 @@ Each design is meant to be:
 - Easy to reuse
 - Easy to simulate
 
+## Notes
+
+A lot of the testbench files & simulation outputs are a **Work in Progess**, they will be added as and when completed 
+
 ## **License**
 
 MIT License — feel free to use any code from this repo.
