@@ -78,7 +78,7 @@ Each design is meant to be:
 
 ## Notes
 
-A lot of the testbench files & simulation outputs are a **Work in Progess**, they will be added as and when completed 
+A lot of the design & testbench files and simulation outputs are a **Work in Progess**, a lot of furbishing goes into them. They will be added as and when completed, Thank you!
 
 ## **License**
 
