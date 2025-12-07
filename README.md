@@ -1,17 +1,21 @@
-# **VHDL-Verilog-Projects**
+# **VHDL · Verilog · RTL Projects**
+Small, synthesizable designs + clean testbenches.
 
-A curated collection of small, well-scoped RTL designs implemented primarily in **VHDL** (with a few utilities in Verilog).  
-This repository is structured as a **personal progress portfolio**, showcasing clean, synthesizable modules, simple testbenches, and organized documentation.  
-Every block is designed to be **standalone, interview-ready, and easy to simulate**.
+![VHDL](https://img.shields.io/badge/VHDL-005F9E.svg?style=flat&logo=vhdl&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog-BA0000.svg?style=flat)
+![GHDL](https://img.shields.io/badge/GHDL-Simulator-purple)
+![Vivado](https://img.shields.io/badge/Xilinx-Vivado-orange)
+
+A clean, organized collection of small RTL modules written in **VHDL**, along with simple testbenches and simulation results.  
+This repository serves as a **personal learning portfolio** and a reusable reference for anyone practicing digital design.
 
 ---
 
 ## **Skills Demonstrated**
-- Synchronous digital design (clocked logic, resets, enables)
-- Arithmetic blocks, counters, shift registers, basic control logic
+- Synchronous digital design (FSMs, counters, shift registers)
 - Writing synthesizable **VHDL** and lightweight testbenches
-- Unit-level simulation using **GHDL + GTKWave**
-- Clean project structuring using `rtl/`, `tb/`, `docs/`, `sim/`
+- Unit simulation using **GHDL** & **Vivado**
+- Building reusable, beginner friendly yet complex RTL components
 
 ---
 
@@ -40,6 +44,7 @@ Basic-RTL/
 	├── Regular/
 	└── Universal/
 
+
 Applied-RTL-1/
 │
 ├── ALU-16bit/
@@ -52,9 +57,7 @@ Applied-RTL-1/
 │
 ├── UART-CTRL/
 │
-├── Vending-CTRL/
-│
-└── Shift Registers/
+└── Vending-CTRL/
 	
 ```
 
@@ -67,35 +70,49 @@ Each design folder typically follows:
 
 ---
 
-## **Quick Start — Simulating with GHDL (Example)**
+## **Simulating with GHDL (Example)**
 
 Quick start — simulate a block (GHDL, PowerShell examples) 1) Analyze the RTL and its testbench (adjust names to the specific block):
 ```powershell
 	ghdl -a "Basic-RTL/Shift Registers/P2S/rtl/Parallel2Serial_ShiftReg.vhd"
 	ghdl -a "Basic-RTL/Shift Registers/P2S/tb/your_testbench.vhd"
 ```
+
 2) Elaborate the testbench entity (replace with the TB entity name):
 ```powershell
 	ghdl -e your_testbench_entity_name
 ```
+
 3) Run the simulation and create a VCD for waveform inspection:
 ```powershell
 	ghdl -r your_testbench_entity_name --vcd=out.vcd
 	gtkwave out.vcd
 ```
 
+## **Simulating in Vivado (Alternative)**
+
+1. Add RTL + Testbench using Add Sources → Simulation Sources
+2. Set the testbench as Simulation Top
+3. Run Behavioral Simulation
+4. View waveforms in the simulator
+
 ## **Purpose**
 
 This repo exists as a learning-focused, clean reference set of small RTL modules.
 Each design is meant to be:
 
-- Easy to read & understand
-- Easy to reuse
+- Easy to read, understand & synthesize
+- Reusability
 - Easy to simulate
 
-## Notes
+## **Up-Coming**
 
-A lot of the design & testbench files and simulation outputs are a **Work in Progess**, a lot of furbishing goes into them. They will be added as and when completed, Thank you!
+- 16-bit ALU
+- Elevator FSM
+- Traffic Light FSM
+- Vending Machine FSM
+- UART TX/RX
+- Mini-RISC Processor datapath components
 
 ## **License**
 
