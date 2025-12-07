@@ -39,6 +39,23 @@ Basic-RTL/
 	├── S2P/
 	├── Regular/
 	└── Universal/
+
+Applied-RTL-1/
+│
+├── ALU-16bit/
+│
+├── Elevator-CTRL/
+│
+├── Mini-RISC/
+│
+├── Traffic-Lights_CTRL/
+│
+├── UART-CTRL/
+│
+├── Vending-CTRL/
+│
+└── Shift Registers/
+	
 ```
 
 Each design folder typically follows:
