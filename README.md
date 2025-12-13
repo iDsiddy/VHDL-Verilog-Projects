@@ -1,10 +1,17 @@
 # **VHDL · Verilog · RTL Projects**
-Small, synthesizable designs + clean testbenches.
+
+Small, synthesizable RTL designs with clean testbenches and simulation results.
 
 ![VHDL](https://img.shields.io/badge/VHDL-005F9E.svg?style=flat&logo=vhdl&logoColor=white)
 ![Verilog](https://img.shields.io/badge/Verilog-BA0000.svg?style=flat)
+![RTL Design](https://img.shields.io/badge/RTL-Design-blueviolet)
+![Synthesizable](https://img.shields.io/badge/Synthesizable-Yes-brightgreen)
 ![GHDL](https://img.shields.io/badge/GHDL-Simulator-purple)
 ![Vivado](https://img.shields.io/badge/Xilinx-Vivado-orange)
+![FPGA Ready](https://img.shields.io/badge/FPGA-Ready-blue)
+![Portfolio](https://img.shields.io/badge/Portfolio-RTL%20Design-critical)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 
 A clean, organized collection of small RTL modules written in **VHDL**, along with simple testbenches and simulation results.  
 This repository serves as a **personal learning portfolio** and a reusable reference for anyone practicing digital design.
