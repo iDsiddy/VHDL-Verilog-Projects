@@ -1,9 +1,8 @@
-# **VHDL · Verilog · RTL Projects**
+# **VHDL · RTL Projects**
 
 Small, synthesizable RTL designs with clean testbenches and simulation results.
 
 ![VHDL](https://img.shields.io/badge/VHDL-005F9E.svg?style=flat&logo=vhdl&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-BA0000.svg?style=flat)
 ![RTL Design](https://img.shields.io/badge/RTL-Design-blueviolet)
 ![Synthesizable](https://img.shields.io/badge/Synthesizable-Yes-brightgreen)
 ![GHDL](https://img.shields.io/badge/GHDL-Simulator-purple)
